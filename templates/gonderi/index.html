@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block govde %}
+    {% for gonderi in gonderis %}
+        {{ gonderi.id }}<br>
+        <a href="{{gonderi.get_absolute_url}}">{{ gonderi.baslik }}</a><br>
+        {{ gonderi.yazi }}<br>
+        {{ gonderi.yayin_tarihi }}<br>
+    {% endfor %}
+{% endblock %}

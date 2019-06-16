@@ -1,0 +1,27 @@
+{% load static %}
+<head>
+    <!-- klasik meta tagi -->
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <!-- adres çubuğunda görünen kısım -->
+    <title>{% block baslik %}Uygulamam{% endblock %}</title>
+    <!-- css klasöründe ki min.css dahil etme-->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+    <!-- style.css içeriği ekran boyutuna ayarlama pixeli-->
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+
+</head>
+<body>
+    <!-- navbar:anasayfa ,iletisim arama vs bulundugu yer'in yazıldığı html kodunu dahil et -->
+    {% include 'navbar-head.html' %}
+
+    {% include 'mesaj.html' %}
+
+    {% block govde %}
+
+    {% endblock %}
+    <!-- static dosyalara eklediğim min.js leri aşağıdaki gibi çağırmak gerek -->
+    <script src="{% static 'js/jquery.min.js'%}"></script>
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+
+</body>
+</html>

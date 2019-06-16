@@ -1,0 +1,9 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <description>CSS</description>
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CommandLineInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Problems" level="WARNING" enabled="true" />
+    </inspection_tool>
+  </profile>
+</component>
