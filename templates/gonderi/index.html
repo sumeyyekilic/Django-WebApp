@@ -1,10 +1,26 @@
 {% extends 'base.html' %}
 
 {% block govde %}
+
+    <div class="container">
     {% for gonderi in gonderis %}
-        {{ gonderi.id }}<br>
-        <a href="{{gonderi.get_absolute_url}}">{{ gonderi.baslik }}</a><br>
-        {{ gonderi.yazi }}<br>
-        {{ gonderi.yayin_tarihi }}<br>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="card" >
+                    <div class="card-body" >
+                        {%if gonderi.image %}
+                            <img src="{{gonderi.image.url}}" class="image-responsive">
+                        {% endif %}
+                        <h2> {{ gonderi.baslik }} <small> {{gonderi.yayin_tarihi }} </small> </h2>
+                        <p> {{ gonderi.yazi|linebreaks|truncatechars:150}} </p>
+                        <a href="{{gonderi.get_absolute_url}}" class="btn btn-primary">Detayı..</a>
+                        <a href=" {{gonderi.get_update_url}}" class="btn btn-default"> Güncelle</a>
+                        <a href=" {{gonderi.get_delete_url}}" class="btn btn-danger"> Sil </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     {% endfor %}
+    </div>
 {% endblock %}
+

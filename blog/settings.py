@@ -36,7 +36,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #uyg
     'gonderi',
+
+    # 3.taraf
+    'crispy_forms',
+    'django_cleanup'
 ]
 
 MIDDLEWARE = [
@@ -125,3 +130,7 @@ STATICFILES_DIRS = [
 #STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
 #static dosyaların bulunduğu,kök dizin demektir.
 #static_root çalışması? ~~python3 manage.py collectstatic
+MEDIA_URL='/media/'
+MEDIA_ROOT=os.path.join(BASE_DIR,'media')
+
+CRISPY_TEMPLATE_PACK ='bootstrap3'

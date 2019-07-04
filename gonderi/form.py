@@ -8,4 +8,5 @@ class GonderiForm(forms.ModelForm):
         fields={
             'baslik',
             'yazi',
+            'image',
         }

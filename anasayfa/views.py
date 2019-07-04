@@ -13,3 +13,5 @@ def anasayfa_view(request):
             'isim':'misafir'
         }        #göndermek istenen içerikler contexte
     return render(request,'anasayfa.html',context)
+
+
