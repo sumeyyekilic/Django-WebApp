@@ -24,6 +24,7 @@ def gonderi_detail(request,slug):
             yorum.gonderi = gonderi
             "    "  # istek yapan kullanıcıyı yazar yaptım
             yorum.save()  # nesne kaydı okeyle
+            messages.success(request, 'Yorumunuz Başarılı Şekilde İletildi!')
             return HttpResponseRedirect(gonderi.get_absolute_url())
     else:
         # formu kullanıcıya göster (doldurulacak şekilde)

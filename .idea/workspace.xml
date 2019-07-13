@@ -7,82 +7,11 @@
     <list default="true" id="122b7362-200c-48ad-ac8b-a65cf14277c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gonderi/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gonderi/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gonderi/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/gonderi/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gonderi/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gonderi/migrations/0002_auto_20190612_1219.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gonderi/migrations/0003_gonderi_image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gonderi/migrations/0004_auto_20190702_2216.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gonderi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gonderi/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gonderi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gonderi/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gonderi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gonderi/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/changelists.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/widgets.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/calendar-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-addlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-alert.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-calendar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-changelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-deletelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-no.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-yes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/selector-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/sorting-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-add.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/SelectBox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/SelectFilter2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/actions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/cancel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/change_form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/collapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/collapse.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/inlines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/inlines.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/jquery.init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/popup_response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate_init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/timeparse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/urlify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/gonderi/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gonderi/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gonderi/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gonderi/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gonderi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gonderi/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/navbar-head.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar-head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/gonderi/yorum.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gonderi/yorum.html" afterDir="false" />
     </list>
     <ignored path="static/style.css" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gonderi/form.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="300">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -120,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gonderi/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+            <state relative-caret-position="915">
+              <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -129,20 +58,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/gonderi/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="645">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gonderi/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="-73">
+              <caret line="26" column="75" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#107#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/gonderi/yorum.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="75">
+              <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -192,22 +124,22 @@
         <option value="$PROJECT_DIR$/gonderi/admin.py" />
         <option value="$PROJECT_DIR$/gonderi/urls.py" />
         <option value="$PROJECT_DIR$/templates/gonderi/form.html" />
-        <option value="$PROJECT_DIR$/blog/settings.py" />
         <option value="$PROJECT_DIR$/templates/gonderi/index.html" />
-        <option value="$PROJECT_DIR$/gonderi/form.py" />
         <option value="$PROJECT_DIR$/templates/gonderi/comment.html" />
+        <option value="$PROJECT_DIR$/gonderi/models.py" />
+        <option value="$PROJECT_DIR$/blog/settings.py" />
         <option value="$PROJECT_DIR$/templates/gonderi/yorum.html" />
+        <option value="$PROJECT_DIR$/gonderi/form.py" />
         <option value="$PROJECT_DIR$/gonderi/views.py" />
         <option value="$PROJECT_DIR$/templates/gonderi/detail.html" />
-        <option value="$PROJECT_DIR$/gonderi/models.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1008" />
-    <option name="y" value="-4" />
-    <option name="width" value="937" />
-    <option name="height" value="1084" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="883" />
+    <option name="y" value="24" />
+    <option name="width" value="1005" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -458,9 +390,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="-4" width="1873" height="1084" extended-state="6" />
+    <frame x="883" y="24" width="1005" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928263" visible="true" weight="0.07189189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928263" visible="true" weight="0.21894094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50071734" side_tool="true" weight="0.1251944" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -695,17 +628,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="122" column="60" selection-start-line="122" selection-start-column="60" selection-end-line="122" selection-end-column="60" />
+        <state relative-caret-position="296">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gonderi/form.py">
+    <entry file="file://$PROJECT_DIR$/templates/gonderi/yorum.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="75">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gonderi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -717,34 +657,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gonderi/models.py">
+    <entry file="file://$PROJECT_DIR$/gonderi/form.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+        <state relative-caret-position="300">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gonderi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="26" column="75" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#107#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/gonderi/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gonderi/yorum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gonderi/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="645">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
         </state>
       </provider>
     </entry>

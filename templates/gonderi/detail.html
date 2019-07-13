@@ -4,7 +4,7 @@
 {% block govde %}
 <div class="container">
     <div class="row">
-        <div class="col-md-6 col-md-offset-2">
+        <div class="col-md-6 col-md-offset-3">
             <div class="card" >
                 <div class="card-body" >
                       {%if gonderi.image %}
@@ -24,14 +24,24 @@
 
 
             <br><br><hr>
-            <h3>Yorum  Yap</h3>
-            {% include 'gonderi/yorum.html' %}
-            <hr>
+            <div class="row">
+                {% if gonderi.yorumlar.all%}
+                        <h2 class="page-header">Yorumlar ({{gonderi.yorumlar.all|length}})</h2>
+                        {% for yorum in gonderi.yorumlar.all %}
+                            <div class="col-lg-12">
+                                <h5>{{yorum.name}} <small> || {{yorum.yayin_tarihi|timesince }} önce</small></h5>
+                                <p>{{yorum.yazi|linebreaks}}</p>
+                            </div>
+                        {% endfor %}
+                {% endif %}
+            </div>
 
-            {% for yorum in gonderi.yorumlar.all %}
-                <h5>{{yorum.name}} <small> || {{yorum.created_date|timesince }} önce</small></h5>
-                <p>{{yorum.yazi|linebreaks}}</p>
-            {% endfor %}
+            <div class="row">
+                <h3 class="page-header">Yorum Ekle</h3>
+                {% include 'gonderi/yorum.html' %}
+                <hr>
+            </div>
+
         </div>
     </div>
 </div>
