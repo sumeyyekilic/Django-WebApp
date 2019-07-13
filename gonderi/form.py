@@ -1,5 +1,5 @@
 from django import forms
-from .models import Gonderi
+from .models import Gonderi, Yorum
 
 #bu dosyaya gonderi modelimizi referans verdm
 class GonderiForm(forms.ModelForm):
@@ -10,3 +10,11 @@ class GonderiForm(forms.ModelForm):
             'yazi',
             'image',
         }
+
+class YorumForm(forms.ModelForm):
+    class Meta:
+        model=Yorum
+        fields=[
+            'name',
+            'yazi'
+        ]

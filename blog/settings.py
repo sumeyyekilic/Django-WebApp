@@ -41,7 +41,8 @@ INSTALLED_APPS = [
 
     # 3.taraf
     'crispy_forms',
-    'django_cleanup'
+    'django_cleanup',
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
@@ -127,10 +128,20 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]   #'static' degiskeni: template klasörü içine(base) yazdığımız şeyin aynısı
 
-#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
 #static dosyaların bulunduğu,kök dizin demektir.
 #static_root çalışması? ~~python3 manage.py collectstatic
 MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 
 CRISPY_TEMPLATE_PACK ='bootstrap3'
+
+CKEDITOR_JQUERY_URL=os.path.join(STATIC_URL,'js/jquery.min.js')
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        #'toolbar': 'full',
+        #'height': 300,
+        'width':'100%', #editörü sayfaya oturtma
+    },
+}

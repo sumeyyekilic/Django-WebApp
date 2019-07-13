@@ -12,10 +12,14 @@
                             <img src="{{gonderi.image.url}}" class="image-responsive">
                         {% endif %}
                         <h2> {{ gonderi.baslik }} <small> {{gonderi.yayin_tarihi }} </small> </h2>
-                        <p> {{ gonderi.yazi|linebreaks|truncatechars:150}} </p>
-                        <a href="{{gonderi.get_absolute_url}}" class="btn btn-primary">Detayı..</a>
-                        <a href=" {{gonderi.get_update_url}}" class="btn btn-default"> Güncelle</a>
-                        <a href=" {{gonderi.get_delete_url}}" class="btn btn-danger"> Sil </a>
+                        <h4> Yazar: {{ gonderi.kullanici.get_full_name}}</h4>   <!--bir gonderiye yazar bilgisi ekleme ve bunu yaparken yazarın sisteme giriş yaptığı kullanıcıadı -->
+                        <p> {{ gonderi.yazi|safe|linebreaks|truncatechars:150}} </p>
+                        <p><a href="{{gonderi.get_absolute_url}}" class="btn btn-primary">Detayı..</a>
+                            {%if request.user.is_authenticated %}
+                                <a href=" {{gonderi.get_update_url}}" class="btn btn-default"> Güncelle</a>
+                                <a href=" {{gonderi.get_delete_url}}" class="btn btn-danger"> Sil </a>
+                            {%endif%}
+                        </p>
                     </div>
                 </div>
             </div>
