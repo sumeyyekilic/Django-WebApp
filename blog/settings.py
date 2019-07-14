@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'django_cleanup',
     'ckeditor',
+    'captcha',
 ]
 
 MIDDLEWARE = [
@@ -145,3 +146,8 @@ CKEDITOR_CONFIGS = {
         'width':'100%', #editörü sayfaya oturtma
     },
 }
+
+#alan adıile captcha ekle
+#RECAPTCHA_PUBLIC_KEY = '6LeLjq0UAAAAAH9Js3KGYHuXHo2XW19E_SqBp60P'
+#RECAPTCHA_PRIVATE_KEY = '6LeLjq0UAAAAAMrb-RCWt2PXt0quhKfrZUs3c8oX'
+#NOCAPTCHA=True

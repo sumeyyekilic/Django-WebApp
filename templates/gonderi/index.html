@@ -25,6 +25,28 @@
             </div>
         </div>
     {% endfor %}
+
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="pagination">
+                <span class="step-links">
+                    {% if gonderis.has_previous %}
+                        <a href="?Sayfa={{ gonderis.previous_page_number }}">önceki</a>
+                    {% endif %}
+
+                    <span class="current">
+                        Sayfa {{gonderis.number }} of {{ gonderis.paginator.num_pages }}.
+                    </span>
+
+                    {% if gonderis.has_next %}
+                        <a href="?Sayfa={{ gonderis.next_page_number }}">sonraki</a>
+                    {% endif %}
+                    </span>
+            </div>
+
+        </div>
+    </div>
+
     </div>
 {% endblock %}
 

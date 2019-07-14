@@ -1,8 +1,12 @@
 from django import forms
 from .models import Gonderi, Yorum
+#from captcha.fields import ReCaptchaField
+
 
 #bu dosyaya gonderi modelimizi referans verdm
 class GonderiForm(forms.ModelForm):
+    #captcha = ReCaptchaField()
+
     class Meta:
         model=Gonderi
         fields={
@@ -12,6 +16,8 @@ class GonderiForm(forms.ModelForm):
         }
 
 class YorumForm(forms.ModelForm):
+    #captcha = ReCaptchaField()
+
     def __init__(self,*args,**kwargs):
         super(YorumForm, self).__init__(*args,**kwargs)
         for field in self.fields:

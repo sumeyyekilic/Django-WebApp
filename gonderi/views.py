@@ -3,9 +3,31 @@ from .models import Gonderi
 from .form import GonderiForm,YorumForm
 from django.contrib import messages
 from django.utils.text import slugify
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.db.models import Q
 
 def gonderi_index(request):
-    gonderis=Gonderi.objects.all()
+    gonderi_list=Gonderi.objects.all()
+    query=request.GET.get('q')
+    if query:
+        gonderi_list=gonderi_list.filter(
+            Q(baslik__icontains=query) |
+            Q(yazi__icontains=query) |
+            Q(kullanici__first_name__icontains=query) |
+            Q(kullanici__last_name__icontains=query)
+        ).distinct()
+    paginator = Paginator(gonderi_list,6 )  # Show 25 contacts per page
+
+    page = request.GET.get('Sayfa')
+    try:
+        gonderis= paginator.page(page)
+    except PageNotAnInteger:
+        # If page is not an integer, deliver first page.
+        gonderis = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+        gonderis = paginator.page(paginator.num_pages)
+
     #httpresponsu render metoduna çevircez.
     return render(request, 'gonderi/index.html',{ 'gonderis': gonderis })
 
