@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Django-WebApp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blog" vcs="Git" />
   </component>
 </project>
