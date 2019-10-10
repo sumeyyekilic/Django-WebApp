@@ -1,7 +1,7 @@
 from django.conf.urls import url
 from .views import *
 #bu dosyayı kendimiz oluşturduk. bir uyg oluşturunca otomatik gelmez kendimiz olut. gerek.
-
+from django.contrib import admin
 app_name='gonderi'
 
 urlpatterns = [

@@ -29,6 +29,12 @@
                 <li><a href="{% url 'gonderi:index' %}">Blog</a></li>
                 <li><a href="#">Hakkında</a></li>
                 <li><a href="#">İletişim</a></li>
+                {% if not request.user.is_authenticated %}
+                    <li><a href="{% url 'kullanicilar:kayit'%}"> Kayıt ol </a></li>
+                    <li><a href="{% url 'kullanicilar:giris'%}"> Giriş </a></li>
+                {%else%}
+                    <li><a href="{% url 'kullanicilar:cikis'%}"> Çıkış </a></li>
+                {% endif %}
             </ul>
 
             <!-- Arama Çubuğum -->

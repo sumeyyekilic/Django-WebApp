@@ -38,13 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #uyg
     'gonderi',
-
     # 3.taraf
-    'crispy_forms',
     'django_cleanup',
     'ckeditor',
-    'captcha',
-]
+    'crispy_forms',
+ ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
