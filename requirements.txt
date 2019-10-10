@@ -118,7 +118,7 @@ usb-creator==0.3.0
 uWSGI==2.0.18
 virtualenv==16.6.0
 w3lib==1.20.0
-Werkzeug==0.15.1
+Werkzeug==0.15.3
 WTForms==2.2.1
 xdiagnose==3.8.4.1
 xkit==0.0.0
