@@ -22,10 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'c8@nq9%k*ly5ck@8mhbm2+-==#-8v9=t2w7^_4dv(c%vc2gz!i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG =False
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -80,8 +79,12 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'proje_adi',
+        'USER': 'kullanici_adi',
+        'PASSWORD': 'parola123',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
@@ -123,9 +126,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
-]   #'static' degiskeni: template klasörü içine(base) yazdığımız şeyin aynısı
+#STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, 'static'),
+#]   #'static' degiskeni: template klasörü içine(base) yazdığımız şeyin aynısı
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
 #static dosyaların bulunduğu,kök dizin demektir.
