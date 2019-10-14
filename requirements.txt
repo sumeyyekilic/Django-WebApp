@@ -1,5 +1,9 @@
-django==1.10
+Django==1.10
 django-ckeditor==5.2.1
+django-cleanup==4.0.0
 django-crispy-forms==1.6.1
 django-recaptcha==1.2.1
-Pillow
+gunicorn==19.9.0
+Pillow==6.0.0
+psycopg2==2.8.3
+whitenoise==4.1.4
